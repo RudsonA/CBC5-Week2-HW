@@ -2,7 +2,8 @@
 Dilbert fan */
 
 body {
-    background-color: lightblue;
+    background-color: lightblue; 
+    cursor: "images/cursor.cur", auto;      
 }
 
 h1 {
@@ -15,6 +16,7 @@ h1 {
     text-align: center; 
 }
 
-iframe {
-    
+.audio {
+    text-align: center;
 }
+
