@@ -2,12 +2,12 @@
 Dilbert fan */
 
 body {
-    background-color: lightblue; 
+    background-color: black; 
     cursor: "images/cursor.cur", auto;      
 }
 
 h1 {
-    color: #111; 
+    color: lightblue; 
     font-family: 'Helvetica Neue', sans-serif; 
     font-size: 200px; 
     font-weight: bold; 
@@ -20,3 +20,8 @@ h1 {
     text-align: center;
 }
 
+.music [
+    border-width: 2px; 
+    border-style: solid;
+    border-color: #0B30A4;
+]
