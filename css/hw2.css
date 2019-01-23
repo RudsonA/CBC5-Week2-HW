@@ -27,20 +27,20 @@ h1 {
 
 
 .music { 
-    width: 50%;
-    float: left;
+    width: 30%;
+    height: 500px;
+    display: inline-block;
 }
 
 .videogames {
-    width: 50%;
-    float: right;
+    width: 30%;
+    height: 300px;
+    display: inline-block;
 }
 .reading {
-    width: 50%;
-    text-align: center;
-    left: 30%; 
-    clear: both;
-    display: block;
+    width: 30%;
+    display: inline-block;
+    height: 500px;
 }
 
 h2 {
@@ -84,3 +84,5 @@ h2 {
   .cf img.top:hover {
     opacity:0;
   }
+
+  
