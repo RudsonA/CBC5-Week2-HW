@@ -2,12 +2,13 @@
 Dilbert fan */
 
 body {
-    background-image: url("https://i.imgur.com/8SFV1UH.gif")
+    background-image: url("https://i.imgur.com/8SFV1UH.gif");
 }
 
-.module {
+html {
     cursor: url('https://i.imgur.com/59ffMxU.png'), auto;      
 }
+
 h1 {
     color: lightblue; 
     font-family: 'Helvetica Neue', sans-serif; 
@@ -16,6 +17,12 @@ h1 {
     letter-spacing: -1px; 
     line-height: 1; 
     text-align: center; 
+}
+
+.center {
+    width: 50%;
+    position: absolute;
+    left: 25%;
 }
 
 .audio {
@@ -28,6 +35,14 @@ h1 {
     border-color: #0B30A4;
     width: 45%;
     float: left;
+}
+
+.videogames{
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0B30A4;
+    width: 45%;
+    float: right;
 }
 
 h2 {
