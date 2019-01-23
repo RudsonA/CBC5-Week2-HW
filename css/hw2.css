@@ -12,37 +12,35 @@ html {
 h1 {
     color: lightblue; 
     font-family: 'Helvetica Neue', sans-serif; 
-    font-size: 200px; 
+    font-size: 150px; 
     font-weight: bold; 
     letter-spacing: -1px; 
     line-height: 1; 
     text-align: center; 
 }
 
-.center {
+/* .center {
     width: 50%;
     position: absolute;
     left: 25%;
-}
+} */
 
-.audio {
-    text-align: center;
-}
 
-.music {
-    border-width: 2px; 
-    border-style: solid;
-    border-color: #0B30A4;
-    width: 45%;
+.music { 
+    width: 50%;
     float: left;
 }
 
-.videogames{
-    border-width: 2px;
-    border-style: solid;
-    border-color: #0B30A4;
-    width: 45%;
+.videogames {
+    width: 50%;
     float: right;
+}
+.reading {
+    width: 50%;
+    text-align: center;
+    left: 30%; 
+    clear: both;
+    display: block;
 }
 
 h2 {
@@ -50,13 +48,39 @@ h2 {
     font-size: 28px; 
     letter-spacing: 2px; 
     word-spacing: 2px; 
-    color: violet;
+    color: lightcoral;
     font-weight: 400;
     text-decoration: none;
     font-style: italic;
     font-variant: normal;
     text-transform: none;
     text-align: center;
-
 }
 
+#music-bars span {
+    background-color: #fff;
+    display: block;
+    width: 1px;
+    float: left;
+    margin-right: 2px;
+  }
+
+  .cf {
+    position:relative;
+
+    margin:0 auto;
+    clear: both;
+  }
+  
+  .cf img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .cf img.top:hover {
+    opacity:0;
+  }
