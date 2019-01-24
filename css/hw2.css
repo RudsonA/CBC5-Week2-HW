@@ -103,7 +103,7 @@ h2 {
 }
 
 @media (min-width:700px) {
-    #rotating-item-wrapper {
+    #rotating-item-wrapper, #music-bars {
         display: block;
     }  
 }
