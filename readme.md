@@ -5,7 +5,7 @@ This is my second project for my code boot camp. I am making a web page about a 
 
 I am *rotating images in a loop* and **rotating images in a hoover sequence**. 
 **DFLOATS**
-<details open> 
+<details> 
 <summary> My skills with this project is a work in progress. </summary>
 <br>
 Color Scheme 
