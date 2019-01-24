@@ -11,6 +11,5 @@ I am *rotating images in a loop* and **rotating images in a hoover sequence**.
 Floats 
 Color scheme
 Spacing 
-<B>
 **FLOATS**
 </details>
