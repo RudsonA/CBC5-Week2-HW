@@ -92,11 +92,18 @@ h2 {
   }
 
  #rotating-item-wrapper {
-	position: relative;
+    position: relative;
+    display: none;
 }
 .rotating-item {
 	display: none;
 	position: absolute;
 	top: 0;
 	left: 0;
+}
+
+@media (min-width:700px) {
+    #rotating-item-wrapper {
+        display: block;
+    }  
 }
