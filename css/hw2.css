@@ -43,6 +43,7 @@ h1 {
     width: 500px;
     display: block;
     height: 500px;
+    clear: both;
 }
 
 h2 {
