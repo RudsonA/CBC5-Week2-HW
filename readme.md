@@ -8,11 +8,13 @@ I am *rotating images in a loop* and **rotating images in a hoover sequence**.
 <details open> 
 <summary> My skills with this project is a work in progress. </summary>
 <br>
-Floats 
-<br>
 Color Scheme 
 <br>
 Spacing 
 <br>
 <b>Floats</b>
+<br>
+Position Relative
+<BR>
+Position Absolute
 </details>
