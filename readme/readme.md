@@ -18,3 +18,5 @@ Position Relative
 <BR>
 Position Absolute
 </details>
+  
+  To view the page: https://rudsona.github.io/CBC5-Week2-HW/
