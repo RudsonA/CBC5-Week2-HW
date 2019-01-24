@@ -9,7 +9,10 @@ I am *rotating images in a loop* and **rotating images in a hoover sequence**.
 <summary> My skills with this project is a work in progress. </summary>
 <br>
 Floats 
-Color scheme
+<br>
+Color Scheme 
+<br>
 Spacing 
-<B>**FLOATS**</B>
+<br>
+<b>Floats</b>
 </details>
