@@ -2,7 +2,7 @@
 Dilbert fan */
 
 body {
-    background-image: url("https://i.imgur.com/8SFV1UH.gif");
+    background-color: lightpink;
 }
 
 html {
@@ -10,7 +10,7 @@ html {
 }
 
 h1 {
-    color: lightblue; 
+    color: crimson; 
     font-family: 'Helvetica Neue', sans-serif; 
     font-size: 150px; 
     font-weight: bold; 
@@ -27,19 +27,21 @@ h1 {
 
 
 .music { 
-    width: 30%;
+    width: 500px;
     height: 500px;
-    display: inline-block;
+    display: block;
+    float: left;
 }
 
 .videogames {
-    width: 30%;
-    height: 300px;
-    display: inline-block;
+    width: 500px;
+    height: 500px;
+    display: block;
+    float: right;
 }
 .reading {
-    width: 30%;
-    display: inline-block;
+    width: 500px;
+    display: block;
     height: 500px;
 }
 
