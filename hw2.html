@@ -8,8 +8,12 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/hw2.css">
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="hw2.js"></script>
-
+    <script src="js/music-effect.js"></script>
+    <!-- Rotating image testing -->
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type='text/javascript' src='js/rotating-images.js'></script>
+    <!-- End Testing -->
 </head>
 <body>
     <div>
@@ -124,7 +128,13 @@
     </div> 
     <div class="reading">
         <h2>Reading</h2>
-        
+        <div id="rotating-item-wrapper">
+            <img src="images/reader-lives.jpg" alt="A reader lives a thousand lives" class="rotating-item">
+            <img src="images/history.jpg" alt="history pic" class="rotating-item">
+            <img src="images/strange.gif" alt="Dr Strange, trippy scene" class="rotating-item">
+            <img src="images/economics.jpg" alt="economic pic" class="rotating-item">
+            <img src="images/tech.gif" alt="tech pic" class="rotating-item">
+        </div>
     </div>
 </body>
 </html>

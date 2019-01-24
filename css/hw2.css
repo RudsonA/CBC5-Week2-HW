@@ -85,4 +85,12 @@ h2 {
     opacity:0;
   }
 
-  
+ #rotating-item-wrapper {
+	position: relative;
+}
+.rotating-item {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
