@@ -27,23 +27,26 @@ h1 {
 
 
 .music { 
-    width: 500px;
+    width: 20%;
     height: 500px;
-    display: block;
     float: left;
 }
 
 .videogames {
-    width: 500px;
+    width: 40%;
     height: 500px;
-    display: block;
-    float: right;
+    float: left;
 }
 .reading {
-    width: 500px;
-    display: block;
+    width: 20%;
     height: 500px;
-    clear: both;
+    float: left;
+}
+
+.sidebyside {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
 }
 
 h2 {
