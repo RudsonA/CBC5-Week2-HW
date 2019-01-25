@@ -41,9 +41,10 @@ h1 {
 }
 
 .sidebyside {
-    width: 90%;
-    margin-left: 5%;
-    text-align: center;
+	display: flex;
+	flex-direction: row; 
+	justify-content: space-around;
+	flex-flow: wrap;
 }
 
 h2 {
