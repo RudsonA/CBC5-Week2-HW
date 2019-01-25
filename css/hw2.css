@@ -62,7 +62,7 @@ h2 {
 
 #music-bars span {
     background-color: #fff;
-    display: block;
+    display: none;
     width: 1px;
     float: left;
     margin-right: 2px;
@@ -70,7 +70,7 @@ h2 {
 
   .cf {
     position:relative;
-
+    display: none;
     margin:0 auto;
     clear: both;
   }
@@ -105,8 +105,14 @@ h2 {
     }  
 }
 
-@media (min-width: 700px) {
-    #music-bars {
+@media (min-width: 400px) {
+    #music-bars span {
         display: block; 
+    }
+}
+
+@media (min-width: 500px) {
+    .cf {
+        display: block;
     }
 }
